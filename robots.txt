@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Allow: /nav/home.php
+Allow: /nav/noticias.php
+Allow: /nav/biblioteca.php
+Allow: /
+
+Sitemap: http://observatoriodotabaco.com.br/sitemap.xml
+

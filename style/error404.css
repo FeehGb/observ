@@ -1,0 +1,187 @@
+/** CSS style page not found*/
+* {
+	background: transparent;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	font-family: 'SegoeUIlight';
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;
+	background: transparent;
+	text-align: justify;
+	text-decoration:none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+div:after, ol:after, form:after, ul:after, dl:after, dd:after, span.fix {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+textarea, input {
+	outline: none;
+}
+html {
+	min-height: 100%
+}
+body {
+
+}
+#page {
+	width: 100%
+}
+
+#page.error404 nav {
+	/* margin: 0px auto; */
+	height: auto;
+}
+
+#page.error404 header nav #menu {
+	width: 718px;
+	margin: 0px auto;
+	top: 0px;
+}
+#page.error404 header nav #menu ul li {
+	display: inline-block;
+	float: left;
+	margin-left: -1px;
+	border: solid 1px;
+	border-color: #dbdbdb;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+#page.error404 header nav #menu ul li a {
+	padding: 30px 27px;
+	display: block;
+	position: relative;
+	color: #AFAFAF;
+	text-decoration: none;
+}
+/*BLUE*/
+#page.error404 nav #menu ul li.blue a:hover, #page.error404 nav #menu ul li.blue.a-active a {
+	color: #0066CC !important;
+}
+#page.error404 nav #menu ul li.blue.a-active {
+	border-color: #dbdbdb #dbdbdb #0066CC #dbdbdb !important;
+}
+#page.error404 header nav #menu ul li.blue.a-active, #page.error404 header nav #menu ul li.blue:hover {
+	border-color: #EBEBEB #0066CC #0066CC #0066CC;
+	-webkit-box-shadow: 0 -4px 0 #0066CC inset;
+	-moz-box-shadow: 0 -4px 0 #0066CC inset;
+	box-shadow: 0 -4px 0 #0066CC inset;
+}
+#page.error404 header nav #menu ul li:first-child.blue.a-active:hover, #page.error404 header nav #menu ul li.blue.a-active:hover, #page.error404 header nav #menu ul li.blue:hover + li {
+	border-left-color: #0066CC !important;
+}
+#page.error404 header nav #menu ul li:last-child.blue.a-active:hover {
+	border-right-color: #0066CC !important;
+}
+/*RED*/
+#page.error404 header nav #menu ul li.red a:hover, #page.error404 header nav #menu ul li.red.a-active a {
+	color: #FF4747;
+}
+#page.error404 header nav #menu ul li.red.a-active {
+	border-color: #dbdbdb #dbdbdb #FF4747 #dbdbdb !important;
+}
+#page.error404 header nav #menu ul li.red.a-active, #page.error404 header nav #menu ul li.red:hover {
+	border-color: #EBEBEB #FF4747 #FF4747 #FF4747;
+	-webkit-box-shadow: 0 -4px 0 #FF4747 inset;
+	-moz-box-shadow: 0 -4px 0 #FF4747 inset;
+	box-shadow: 0 -4px 0 #FF4747 inset;
+}
+#page.error404 header nav #menu ul li:first-child.red.a-active:hover, #page.error404 header nav #menu ul li.red.a-active:hover, #page.error404 header nav #menu ul li.red:hover + li {
+	border-left-color: #FF4747 !important;
+}
+#page.error404 header nav #menu ul li:last-child.red.a-active:hover {
+	border-right: solid 1px #FF4747 !important;
+}
+/*GREEN*/
+#page.error404 header nav #menu ul li.green.a-active a, #page.error404 header nav #menu ul li.green a:hover {
+	color: #64C956;
+}
+#page.error404 header nav #menu ul li.green.a-active {
+	border-color: #dbdbdb #dbdbdb #64C956 #dbdbdb !important;
+}
+#page.error404 header nav #menu ul li.green.a-active, #page.error404 header nav #menu ul li.green:hover {
+	border-color: #EBEBEB #64C956 #64C956 #64C956;
+	-webkit-box-shadow: 0 -4px 0 #64C956 inset;
+	-moz-box-shadow: 0 -4px 0 #64C956 inset;
+	box-shadow: 0 -4px 0 #64C956 inset;
+}
+#page.error404 header nav #menu ul li:first-child.green.a-active:hover, #page.error404 header nav #menu ul li.green.a-active:hover, #page.error404 header nav #menu ul li.green:hover + li {
+	border-left-color: #64C956 !important;
+}
+#page.error404 header nav #menu ul li:last-child.green.a-active:hover {
+	border-right-color: #64C956 !important;
+}
+/*BLACK*/
+#page.error404 header nav #menu ul li.black.a-active a, #page.error404 header nav #menu ul li.black a:hover {
+	color: #495661;
+}
+#page.error404 header nav #menu ul li.black.a-active {
+	border-color: #dbdbdb #dbdbdb #495661 #dbdbdb !important;
+}
+#page.error404 header nav #menu ul li.black.a-active, #page.error404 header nav #menu ul li.black:hover {
+	border-color: #EBEBEB #495661 #495661 #495661;
+	-webkit-box-shadow: 0 -4px 0 #495661 inset;
+	-moz-box-shadow: 0 -4px 0 #495661 inset;
+	box-shadow: 0 -4px 0 #495661 inset;
+}
+#page.error404 header nav #menu ul li:first-child.black.a-active:hover, #page.error404 header nav #menu ul li.black.a-active:hover, #page.error404 header nav #menu ul li.black:hover + li {
+	border-left-color: #495661 !important;
+}
+#page.error404 header nav #menu ul li:last-child.black.a-active:hover {
+	border-right-color: #495661 !important;
+}
+
+#page.error404 header nav #menu ul li:first-child{ border-radius:0 0 0 3px}
+#page.error404 header nav #menu ul li:last-child{ border-radius:0 0 3px 0}
+
+
+#page.error404 section article#error404{ margin: 0px auto; width: 745px; background:url(imgs/error404.png) no-repeat; height: 620px;}
+
+#page.error404 section {
+    margin: 0px;
+}
+#page.error404 section header {
+    width: 980px;
+    margin: 0px auto;
+}
+
+#page.error404 #nav {
+    float: left;
+}
+#page.error404 header {
+    margin-bottom: 80px;
+}
+
+@font-face {
+	font-family: 'SegoeUILight';
+	src: url('font/segoeuil/segoeuil.eot');
+	src: url('font/segoeuil/segoeuil.eot') format('embedded-opentype'), url('font/segoeuil/segoeuil.woff') format('woff'), url('font/segoeuil/segoeuil.ttf') format('truetype'), url('font/segoeuil/segoeuil.svg#SegoeUILight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.SegoeUILight {
+	font-family: 'SegoeUILight'
+}
